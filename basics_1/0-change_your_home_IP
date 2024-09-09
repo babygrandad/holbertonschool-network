@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env/ bash
 # Adding entries to /etc/hosts
 echo "127.0.0.2 localhost" | sudo tee -a /etc/hosts
 echo "8.8.8.8 facebook.com www.facebook.com" | sudo tee -a /etc/hosts
