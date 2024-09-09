@@ -3,3 +3,4 @@
 # 'grep -oP' extracts IP addresses using a regular expression
 
 ifconfig | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+f
